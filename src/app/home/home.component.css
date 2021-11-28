@@ -1,0 +1,108 @@
+section.banner-section{
+    padding: 50px 0px;
+	background-color: #ffffff;
+    min-height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+@media (max-width: 425px) {
+    section.banner-section{ 
+        min-height: auto;
+    }
+}
+/*--------/.banner-section-------*/
+section.section-1 {
+    background-color: #0572c9;
+    padding: 20px 0px;
+    border-top: 1px solid #c4e8e5;
+    border-bottom: 1px solid #c4e8e5;
+}
+.rate {
+	font-size: 40px;
+}
+.trust-logo {
+	width: 130px;
+}
+/*-------/section-1--------*/
+.w-icons {
+    display: inline-block;
+    background-color: #fcfcfc;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+}
+/*-------/section-2--------*/
+section.section-3 {
+    padding: 50px 0px;
+    background-color: #f6f7fc;
+}
+.feature-box {
+    background-color: #fff;
+    padding: 50px 20px 30px;
+    border: 1px solid #c2ccff;
+    border-radius: 6px;
+    position: relative;
+    transition: 0.5s;
+}
+.feature-box:hover {
+    box-shadow: 0px 0px 15px #aeb3cdc2;
+}
+.feature-box h2 {
+    position: absolute;
+    top: -27px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 5px #00000042;
+    width: 80%;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.save-box.text-center {
+    padding: 15px;
+    border: 1px solid #62b9fc;
+    border-radius: 4px;
+}
+.call-now {
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #cfcfcf;
+    border-left: 4px solid #1c9aff;
+    border-right: 4px solid #ff7e37;
+}
+/*--------/section-3-------*/
+section.section-4 {
+    padding: 50px 0px;
+    background-color: #ffffff;
+}
+.priority-support-box {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #7b94a530;
+    min-height: 220px;
+}
+/*--------/section-4-------*/
+section.section-5 {
+    padding: 50px 0px;
+	background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+/*--------/section-5-------*/
