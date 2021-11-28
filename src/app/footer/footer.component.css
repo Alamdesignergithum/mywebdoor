@@ -1,0 +1,69 @@
+section.section-subscribe {
+    background-color: #ff7e37;
+    padding: 30px 0px;
+  }
+/*--------/section-subscribe-------*/
+section.pay-section {
+  padding: 20px 0px;
+  background-color: #ffffff;
+}
+p.pay-logo a img {
+  border: 1px solid #eee;
+}
+@media (max-width: 425px) {
+  p.pay-logo a img {
+    width: 65px;
+  }
+}
+@media (max-width: 320px) {
+  p.pay-logo a img {
+    width: 54px;
+  }
+}
+/*--------/pay-section-------*/
+
+#footer {
+  background: #1a1d22;
+  border-top: 3px solid #eeeeee;
+  padding: 45px 0px;
+  color: #fff;
+  font-size: 14px;
+}
+#footer .copyright {
+  text-align: center;
+}
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+}
+.copyright {
+  background-color: #121519;
+  text-align: center;
+  color: #fff;
+  padding: 10px 15px;
+  border-top: 1px solid #414750;
+}
+ul.web_link {
+  list-style: none;
+  padding-left: 0px;
+}
+ul.web_link li a{
+  color: #cccccc;
+}
+
+ul.web_link li {
+  background-color: #131519;
+  margin-bottom: 8px;
+  padding: 3px 15px;
+  border-left: 2px solid #ffffff;
+}
+.footer_box h4 {
+  border-bottom: 3px solid #cccccc;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 5px 0px;
+  display: inline-block;
+}
+/*=====  End of footer  ======*/
